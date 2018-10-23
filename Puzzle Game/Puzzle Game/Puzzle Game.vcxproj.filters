@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{5d8e837f-f883-4024-bbe8-304f06660b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DirectX">
+      <UniqueIdentifier>{7899c0d9-0224-46eb-abb8-defb976daedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{f330c902-9e7a-4c8d-962c-505a3c63735a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source\Puzzle">
+      <UniqueIdentifier>{0a8f8476-ed54-49e9-945d-4a1b2f05c1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Puzzle\Piece">
+      <UniqueIdentifier>{be858b40-f4d2-4ab4-81fc-3ad93413d687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Puzzle\Stage">
+      <UniqueIdentifier>{ea97e8ba-c24e-436b-8bd4-1fcb12b79da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Character">
+      <UniqueIdentifier>{47db76b6-53ab-4449-b364-559241ca51ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Opening">
+      <UniqueIdentifier>{80ba3b48-8cdb-405d-8fa8-dd71de38d325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Puzzle\Score">
+      <UniqueIdentifier>{47961cc2-705d-4200-bb53-06224dc99511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Puzzle\Character">
+      <UniqueIdentifier>{43ebee4c-7869-4315-91cb-4709e29fbd34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\SelectMode">
+      <UniqueIdentifier>{12a0700f-226d-4009-91e8-92983f9221ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Wipe">
+      <UniqueIdentifier>{83833903-e408-412b-ab7d-47979dacdd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Talking">
+      <UniqueIdentifier>{554c7530-283b-492b-bb4e-eccfbae420ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Store">
+      <UniqueIdentifier>{94e38bcc-237a-4c71-b5d0-0dc4e8152fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Design">
+      <UniqueIdentifier>{980ba47e-445b-45a2-878c-8c91e73b1487}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CEnding.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGameOver.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSceneManager.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CStage.cpp">
+      <Filter>Source\Puzzle\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CStageManager.cpp">
+      <Filter>Source\Puzzle\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CCharacter.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CCharacterManager.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Likelihood.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPiece.cpp">
+      <Filter>Source\Puzzle\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPieceManager.cpp">
+      <Filter>Source\Puzzle\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\sound.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CFps.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\event.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\input.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\window.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COpening.cpp">
+      <Filter>Source\Scene\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COpTitleLogo.cpp">
+      <Filter>Source\Scene\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CScore.cpp">
+      <Filter>Source\Puzzle\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CScoreManager.cpp">
+      <Filter>Source\Puzzle\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COpButton.cpp">
+      <Filter>Source\Scene\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CRisdon.cpp">
+      <Filter>Source\Puzzle\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CRisdonManager.cpp">
+      <Filter>Source\Puzzle\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSelectMode.cpp">
+      <Filter>Source\Scene\SelectMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSelectButton.cpp">
+      <Filter>Source\Scene\SelectMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CWipeManager.cpp">
+      <Filter>Source\Common\Wipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CWipe.cpp">
+      <Filter>Source\Common\Wipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPlayPuzzle.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAnimation.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CRisdonEffect.cpp">
+      <Filter>Source\Puzzle\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CTalk.cpp">
+      <Filter>Source\Common\Talking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CTalkManager.cpp">
+      <Filter>Source\Common\Talking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CStore.cpp">
+      <Filter>Source\Scene\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CDesign.cpp">
+      <Filter>Source\Scene\Design</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CEnding.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGameOver.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSceneManager.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CStage.h">
+      <Filter>Source\Puzzle\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CStageManager.h">
+      <Filter>Source\Puzzle\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCharacter.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCharacterManager.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Likelihood.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPiece.h">
+      <Filter>Source\Puzzle\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPieceManager.h">
+      <Filter>Source\Puzzle\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\sound.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CFps.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\event.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\input.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryLeakCheck.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\window.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COpening.h">
+      <Filter>Source\Scene\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COpTitleLogo.h">
+      <Filter>Source\Scene\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CScore.h">
+      <Filter>Source\Puzzle\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CScoreManager.h">
+      <Filter>Source\Puzzle\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COpButton.h">
+      <Filter>Source\Scene\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CRisdon.h">
+      <Filter>Source\Puzzle\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CRisdonManager.h">
+      <Filter>Source\Puzzle\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSelectMode.h">
+      <Filter>Source\Scene\SelectMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSelectButton.h">
+      <Filter>Source\Scene\SelectMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CWipeManager.h">
+      <Filter>Source\Common\Wipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CWipe.h">
+      <Filter>Source\Common\Wipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPlayPuzzle.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAnimation.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CRisdonEffect.h">
+      <Filter>Source\Puzzle\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CTalk.h">
+      <Filter>Source\Common\Talking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CTalkManager.h">
+      <Filter>Source\Common\Talking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CStore.h">
+      <Filter>Source\Scene\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CDesign.h">
+      <Filter>Source\Scene\Design</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

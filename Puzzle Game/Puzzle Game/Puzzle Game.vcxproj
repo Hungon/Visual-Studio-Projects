@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98AFCD71-E192-4102-B22D-9347AA7E4741}</ProjectGuid>
+    <RootNamespace>PuzzleGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CAnimation.cpp" />
+    <ClCompile Include="Source\CCharacter.cpp" />
+    <ClCompile Include="Source\CCharacterManager.cpp" />
+    <ClCompile Include="Source\CDesign.cpp" />
+    <ClCompile Include="Source\CEnding.cpp" />
+    <ClCompile Include="Source\CFps.cpp" />
+    <ClCompile Include="Source\CGameOver.cpp" />
+    <ClCompile Include="Source\COpButton.cpp" />
+    <ClCompile Include="Source\COpening.cpp" />
+    <ClCompile Include="Source\COpTitleLogo.cpp" />
+    <ClCompile Include="Source\CPiece.cpp" />
+    <ClCompile Include="Source\CPieceManager.cpp" />
+    <ClCompile Include="Source\CPlayPuzzle.cpp" />
+    <ClCompile Include="Source\CRisdon.cpp" />
+    <ClCompile Include="Source\CRisdonEffect.cpp" />
+    <ClCompile Include="Source\CRisdonManager.cpp" />
+    <ClCompile Include="Source\CStore.cpp" />
+    <ClCompile Include="Source\CTalkManager.cpp" />
+    <ClCompile Include="Source\CScene.cpp" />
+    <ClCompile Include="Source\CSceneManager.cpp" />
+    <ClCompile Include="Source\CScore.cpp" />
+    <ClCompile Include="Source\CScoreManager.cpp" />
+    <ClCompile Include="Source\CSelectButton.cpp" />
+    <ClCompile Include="Source\CSelectMode.cpp" />
+    <ClCompile Include="Source\CStage.cpp" />
+    <ClCompile Include="Source\CStageManager.cpp" />
+    <ClCompile Include="Source\CWipe.cpp" />
+    <ClCompile Include="Source\event.cpp" />
+    <ClCompile Include="Source\graphics.cpp" />
+    <ClCompile Include="Source\input.cpp" />
+    <ClCompile Include="Source\Likelihood.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\File.cpp" />
+    <ClCompile Include="Source\sound.cpp" />
+    <ClCompile Include="Source\CTalk.cpp" />
+    <ClCompile Include="Source\window.cpp" />
+    <ClCompile Include="Source\CWipeManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CAnimation.h" />
+    <ClInclude Include="Source\CCharacter.h" />
+    <ClInclude Include="Source\CCharacterManager.h" />
+    <ClInclude Include="Source\CDesign.h" />
+    <ClInclude Include="Source\CEnding.h" />
+    <ClInclude Include="Source\CFps.h" />
+    <ClInclude Include="Source\CGameOver.h" />
+    <ClInclude Include="Source\COpButton.h" />
+    <ClInclude Include="Source\COpening.h" />
+    <ClInclude Include="Source\COpTitleLogo.h" />
+    <ClInclude Include="Source\CPiece.h" />
+    <ClInclude Include="Source\CPieceManager.h" />
+    <ClInclude Include="Source\CPlayPuzzle.h" />
+    <ClInclude Include="Source\CRisdon.h" />
+    <ClInclude Include="Source\CRisdonEffect.h" />
+    <ClInclude Include="Source\CRisdonManager.h" />
+    <ClInclude Include="Source\CStore.h" />
+    <ClInclude Include="Source\CTalkManager.h" />
+    <ClInclude Include="Source\CScene.h" />
+    <ClInclude Include="Source\CSceneManager.h" />
+    <ClInclude Include="Source\CScore.h" />
+    <ClInclude Include="Source\CScoreManager.h" />
+    <ClInclude Include="Source\CSelectButton.h" />
+    <ClInclude Include="Source\CSelectMode.h" />
+    <ClInclude Include="Source\CStage.h" />
+    <ClInclude Include="Source\CStageManager.h" />
+    <ClInclude Include="Source\CWipe.h" />
+    <ClInclude Include="Source\event.h" />
+    <ClInclude Include="Source\graphics.h" />
+    <ClInclude Include="Source\input.h" />
+    <ClInclude Include="Source\Likelihood.h" />
+    <ClInclude Include="Source\MemoryLeakCheck.h" />
+    <ClInclude Include="Source\File.h" />
+    <ClInclude Include="Source\resource.h" />
+    <ClInclude Include="Source\sound.h" />
+    <ClInclude Include="Source\CTalk.h" />
+    <ClInclude Include="Source\window.h" />
+    <ClInclude Include="Source\CWipeManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
