@@ -1,0 +1,66 @@
+﻿Build started 10/3/2015 9:48:51 PM.
+     1>Project "C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Super Triathlon\Super Triathlon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Triathlon_Source\main.cpp Triathlon_Source\map.cpp
+         main.cpp
+         map.cpp
+     1>Triathlon_Source\map.cpp(407): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Release\Super Triathlon.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Release\Super Triathlon.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Release\Super Triathlon.lib" /MACHINE:X86 /SAFESEH Release\Script1.res
+         Release\animation.obj
+         Release\CCharacter.obj
+         Release\CCompetitorManager.obj
+         Release\CEffectManager.obj
+         Release\character.obj
+         Release\CompetitorRunner.obj
+         Release\config.obj
+         Release\CPlayerRunner.obj
+         Release\CRoadEnemy.obj
+         Release\CRoadEnemyManager.obj
+         Release\CRoadStage.obj
+         Release\CRunner.obj
+         Release\CRunnerManager.obj
+         Release\effect.obj
+         Release\ending.obj
+         Release\event.obj
+         Release\fps.obj
+         Release\gadget.obj
+         Release\game.obj
+         Release\gameover.obj
+         Release\graphics.obj
+         Release\input.obj
+         Release\item.obj
+         Release\main.obj
+         Release\map.obj
+         Release\menu.obj
+         Release\OffRoadAction.obj
+         Release\OffRoadRacer.obj
+         Release\OffRoadScore.obj
+         Release\OffRoadScoreManager.obj
+         Release\OffRoadStage.obj
+         Release\opening.obj
+         Release\option.obj
+         Release\play.obj
+         Release\record.obj
+         Release\result.obj
+         Release\RunnerEffect.obj
+         Release\score.obj
+         Release\seaenemy.obj
+         Release\seastage.obj
+         Release\SelectStage.obj
+         Release\sound.obj
+         Release\swimer.obj
+         Release\talk.obj
+         Release\window.obj
+         Release\wipe.obj
+         Generating code
+         2 of 714 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+           1 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         Super Triathlon.vcxproj -> C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Release\Super Triathlon.exe
+     1>Done Building Project "C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Super Triathlon\Super Triathlon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.43

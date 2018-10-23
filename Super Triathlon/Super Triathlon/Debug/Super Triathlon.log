@@ -1,0 +1,125 @@
+﻿Build started 10/3/2015 9:49:11 PM.
+     1>Project "C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Super Triathlon\Super Triathlon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Triathlon_Source\CPlayerRunner.cpp Triathlon_Source\CRoadStage.cpp Triathlon_Source\OffRoadStage.cpp Triathlon_Source\SelectStage.cpp Triathlon_Source\config.cpp Triathlon_Source\ending.cpp Triathlon_Source\game.cpp Triathlon_Source\gameover.cpp Triathlon_Source\main.cpp Triathlon_Source\map.cpp Triathlon_Source\menu.cpp Triathlon_Source\opening.cpp Triathlon_Source\option.cpp Triathlon_Source\play.cpp Triathlon_Source\result.cpp Triathlon_Source\seastage.cpp Triathlon_Source\wipe.cpp
+         option.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(353): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(597): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(625): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(646): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(970): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(1724): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\option.cpp(1736): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         map.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\map.cpp(407): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+         main.cpp
+         Generating Code...
+         Compiling...
+         wipe.cpp
+         seastage.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\seastage.cpp(363): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\seastage.cpp(387): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         result.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(244): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(245): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(395): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(453): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(478): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(646): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(820): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(835): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(862): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(1167): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(1175): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(1346): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\result.cpp(1347): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         play.cpp
+         opening.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\opening.cpp(359): warning C4838: conversion from 'const float' to 'LONG' requires a narrowing conversion
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\opening.cpp(359): warning C4244: 'initializing': conversion from 'const float' to 'LONG', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\opening.cpp(364): warning C4305: '+=': truncation from 'double' to 'float'
+         menu.cpp
+         gameover.cpp
+         game.cpp
+         ending.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\ending.cpp(265): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\ending.cpp(397): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\ending.cpp(462): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\ending.cpp(978): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\ending.cpp(1189): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\ending.cpp(1206): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         config.cpp
+         SelectStage.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\selectstage.cpp(265): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\selectstage.cpp(266): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\selectstage.cpp(270): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\selectstage.cpp(271): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\selectstage.cpp(660): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+         OffRoadStage.cpp
+         CRoadStage.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\croadstage.cpp(183): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\croadstage.cpp(183): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\croadstage.cpp(252): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\croadstage.cpp(252): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         CPlayerRunner.cpp
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\cplayerrunner.cpp(222): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\projects for programming\super triathlon\super triathlon\triathlon_source\cplayerrunner.cpp(261): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Debug\Super Triathlon.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Debug\Super Triathlon.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Debug\Super Triathlon.lib" /MACHINE:X86 /SAFESEH Debug\Script1.res
+         Debug\animation.obj
+         Debug\CCharacter.obj
+         Debug\CCompetitorManager.obj
+         Debug\CEffectManager.obj
+         Debug\character.obj
+         Debug\CompetitorRunner.obj
+         Debug\config.obj
+         Debug\CPlayerRunner.obj
+         Debug\CRoadEnemy.obj
+         Debug\CRoadEnemyManager.obj
+         Debug\CRoadStage.obj
+         Debug\CRunner.obj
+         Debug\CRunnerManager.obj
+         Debug\effect.obj
+         Debug\ending.obj
+         Debug\event.obj
+         Debug\fps.obj
+         Debug\gadget.obj
+         Debug\game.obj
+         Debug\gameover.obj
+         Debug\graphics.obj
+         Debug\input.obj
+         Debug\item.obj
+         Debug\main.obj
+         Debug\map.obj
+         Debug\menu.obj
+         Debug\OffRoadAction.obj
+         Debug\OffRoadRacer.obj
+         Debug\OffRoadScore.obj
+         Debug\OffRoadScoreManager.obj
+         Debug\OffRoadStage.obj
+         Debug\opening.obj
+         Debug\option.obj
+         Debug\play.obj
+         Debug\record.obj
+         Debug\result.obj
+         Debug\RunnerEffect.obj
+         Debug\score.obj
+         Debug\seaenemy.obj
+         Debug\seastage.obj
+         Debug\SelectStage.obj
+         Debug\sound.obj
+         Debug\swimer.obj
+         Debug\talk.obj
+         Debug\window.obj
+         Debug\wipe.obj
+         Super Triathlon.vcxproj -> C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Debug\Super Triathlon.exe
+     1>Done Building Project "C:\Users\USER\Desktop\Projects for Programming\Super Triathlon\Super Triathlon\Super Triathlon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.95

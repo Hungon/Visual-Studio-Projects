@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Road Stage">
+      <UniqueIdentifier>{244db9c5-828d-467c-a357-aa559d880aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Road Stage\Effect">
+      <UniqueIdentifier>{57dc6625-1bbe-41be-9a3d-c1cade08a5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Road Stage\Runner">
+      <UniqueIdentifier>{daa7a499-1c28-498d-9f46-5258bc868156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Road Stage\RoadEnemy">
+      <UniqueIdentifier>{51f5aaf4-a84d-47d9-b77b-dcc3c1de581d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sea Stage">
+      <UniqueIdentifier>{fa390102-5eb3-44d1-a7d8-747b771394dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene File">
+      <UniqueIdentifier>{3d302764-086d-4d4c-a621-5b0be640f6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Character">
+      <UniqueIdentifier>{feb8e840-11e5-4e72-83d3-86c40052b52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source\DirectX">
+      <UniqueIdentifier>{75d2981d-e5d0-4d8c-82ca-12a59923324a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{fe1f86f4-f80c-47e4-98c9-5065c956e261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OffRoadStage">
+      <UniqueIdentifier>{0aa5a6bd-455d-41a4-a3c0-32ae5d9370d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OffRoadStage\Score">
+      <UniqueIdentifier>{2282aad0-4158-428e-97f7-078169f651f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Triathlon_Source\Script1.aps">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triathlon_Source\CRoadStage.cpp">
+      <Filter>Source\Road Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CEffectManager.cpp">
+      <Filter>Source\Road Stage\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\RunnerEffect.cpp">
+      <Filter>Source\Road Stage\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CCompetitorManager.cpp">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CompetitorRunner.cpp">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CPlayerRunner.cpp">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CRunner.cpp">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CRunnerManager.cpp">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CRoadEnemy.cpp">
+      <Filter>Source\Road Stage\RoadEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CRoadEnemyManager.cpp">
+      <Filter>Source\Road Stage\RoadEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\effect.cpp">
+      <Filter>Source\Sea Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\item.cpp">
+      <Filter>Source\Sea Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\seaenemy.cpp">
+      <Filter>Source\Sea Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\seastage.cpp">
+      <Filter>Source\Sea Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\swimer.cpp">
+      <Filter>Source\Sea Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\config.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\ending.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\game.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\gameover.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\opening.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\option.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\play.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\result.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\SelectStage.cpp">
+      <Filter>Source\Scene File</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\animation.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\CCharacter.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\character.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\gadget.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\graphics.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\sound.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\event.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\fps.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\input.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\main.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\map.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\menu.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\record.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\score.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\talk.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\window.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\wipe.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\OffRoadAction.cpp">
+      <Filter>Source\OffRoadStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\OffRoadRacer.cpp">
+      <Filter>Source\OffRoadStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\OffRoadStage.cpp">
+      <Filter>Source\OffRoadStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\OffRoadScore.cpp">
+      <Filter>Source\OffRoadStage\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Triathlon_Source\OffRoadScoreManager.cpp">
+      <Filter>Source\OffRoadStage\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triathlon_Source\CRoadStage.h">
+      <Filter>Source\Road Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CEffectManager.h">
+      <Filter>Source\Road Stage\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\RunnerEffect.h">
+      <Filter>Source\Road Stage\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CCompetitorManager.h">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CompetitorRunner.h">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CPlayerRunner.h">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CRunner.h">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CRunnerManager.h">
+      <Filter>Source\Road Stage\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CRoadEnemy.h">
+      <Filter>Source\Road Stage\RoadEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CRoadEnemyManager.h">
+      <Filter>Source\Road Stage\RoadEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\effect.h">
+      <Filter>Source\Sea Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\item.h">
+      <Filter>Source\Sea Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\seaenemy.h">
+      <Filter>Source\Sea Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\seastage.h">
+      <Filter>Source\Sea Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\swimer.h">
+      <Filter>Source\Sea Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\config.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\ending.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\game.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\gameover.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\opening.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\option.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\play.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\result.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\SelectStage.h">
+      <Filter>Source\Scene File</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\animation.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\CCharacter.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\character.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\gadget.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\graphics.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\sound.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\event.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\fps.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\input.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\map.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\MemoryLeakCheck.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\menu.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\record.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\resource.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\score.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\talk.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\window.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\wipe.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\OffRoadAction.h">
+      <Filter>Source\OffRoadStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\OffRoadRacer.h">
+      <Filter>Source\OffRoadStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\OffRoadStage.h">
+      <Filter>Source\OffRoadStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\OffRoadScore.h">
+      <Filter>Source\OffRoadStage\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Triathlon_Source\OffRoadScoreManager.h">
+      <Filter>Source\OffRoadStage\Score</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Triathlon_Source\icon1.ico">
+      <Filter>Source\リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Triathlon_Source\Script1.rc">
+      <Filter>Source\リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

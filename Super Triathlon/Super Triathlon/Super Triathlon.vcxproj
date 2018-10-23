@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{067FB7E0-26B4-4685-AD5C-D99ED38D8A30}</ProjectGuid>
+    <RootNamespace>SuperTriathlon</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Triathlon_Source\Script1.aps" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triathlon_Source\animation.cpp" />
+    <ClCompile Include="Triathlon_Source\CCharacter.cpp" />
+    <ClCompile Include="Triathlon_Source\CCompetitorManager.cpp" />
+    <ClCompile Include="Triathlon_Source\CEffectManager.cpp" />
+    <ClCompile Include="Triathlon_Source\character.cpp" />
+    <ClCompile Include="Triathlon_Source\CompetitorRunner.cpp" />
+    <ClCompile Include="Triathlon_Source\config.cpp" />
+    <ClCompile Include="Triathlon_Source\CPlayerRunner.cpp" />
+    <ClCompile Include="Triathlon_Source\CRoadEnemy.cpp" />
+    <ClCompile Include="Triathlon_Source\CRoadEnemyManager.cpp" />
+    <ClCompile Include="Triathlon_Source\CRoadStage.cpp" />
+    <ClCompile Include="Triathlon_Source\CRunner.cpp" />
+    <ClCompile Include="Triathlon_Source\CRunnerManager.cpp" />
+    <ClCompile Include="Triathlon_Source\effect.cpp" />
+    <ClCompile Include="Triathlon_Source\ending.cpp" />
+    <ClCompile Include="Triathlon_Source\event.cpp" />
+    <ClCompile Include="Triathlon_Source\fps.cpp" />
+    <ClCompile Include="Triathlon_Source\gadget.cpp" />
+    <ClCompile Include="Triathlon_Source\game.cpp" />
+    <ClCompile Include="Triathlon_Source\gameover.cpp" />
+    <ClCompile Include="Triathlon_Source\graphics.cpp" />
+    <ClCompile Include="Triathlon_Source\input.cpp" />
+    <ClCompile Include="Triathlon_Source\item.cpp" />
+    <ClCompile Include="Triathlon_Source\main.cpp" />
+    <ClCompile Include="Triathlon_Source\map.cpp" />
+    <ClCompile Include="Triathlon_Source\menu.cpp" />
+    <ClCompile Include="Triathlon_Source\OffRoadAction.cpp" />
+    <ClCompile Include="Triathlon_Source\OffRoadRacer.cpp" />
+    <ClCompile Include="Triathlon_Source\OffRoadScore.cpp" />
+    <ClCompile Include="Triathlon_Source\OffRoadScoreManager.cpp" />
+    <ClCompile Include="Triathlon_Source\OffRoadStage.cpp" />
+    <ClCompile Include="Triathlon_Source\opening.cpp" />
+    <ClCompile Include="Triathlon_Source\option.cpp" />
+    <ClCompile Include="Triathlon_Source\play.cpp" />
+    <ClCompile Include="Triathlon_Source\record.cpp" />
+    <ClCompile Include="Triathlon_Source\result.cpp" />
+    <ClCompile Include="Triathlon_Source\RunnerEffect.cpp" />
+    <ClCompile Include="Triathlon_Source\score.cpp" />
+    <ClCompile Include="Triathlon_Source\seaenemy.cpp" />
+    <ClCompile Include="Triathlon_Source\seastage.cpp" />
+    <ClCompile Include="Triathlon_Source\SelectStage.cpp" />
+    <ClCompile Include="Triathlon_Source\sound.cpp" />
+    <ClCompile Include="Triathlon_Source\swimer.cpp" />
+    <ClCompile Include="Triathlon_Source\talk.cpp" />
+    <ClCompile Include="Triathlon_Source\window.cpp" />
+    <ClCompile Include="Triathlon_Source\wipe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triathlon_Source\animation.h" />
+    <ClInclude Include="Triathlon_Source\CCharacter.h" />
+    <ClInclude Include="Triathlon_Source\CCompetitorManager.h" />
+    <ClInclude Include="Triathlon_Source\CEffectManager.h" />
+    <ClInclude Include="Triathlon_Source\character.h" />
+    <ClInclude Include="Triathlon_Source\CompetitorRunner.h" />
+    <ClInclude Include="Triathlon_Source\config.h" />
+    <ClInclude Include="Triathlon_Source\CPlayerRunner.h" />
+    <ClInclude Include="Triathlon_Source\CRoadEnemy.h" />
+    <ClInclude Include="Triathlon_Source\CRoadEnemyManager.h" />
+    <ClInclude Include="Triathlon_Source\CRoadStage.h" />
+    <ClInclude Include="Triathlon_Source\CRunner.h" />
+    <ClInclude Include="Triathlon_Source\CRunnerManager.h" />
+    <ClInclude Include="Triathlon_Source\effect.h" />
+    <ClInclude Include="Triathlon_Source\ending.h" />
+    <ClInclude Include="Triathlon_Source\event.h" />
+    <ClInclude Include="Triathlon_Source\fps.h" />
+    <ClInclude Include="Triathlon_Source\gadget.h" />
+    <ClInclude Include="Triathlon_Source\game.h" />
+    <ClInclude Include="Triathlon_Source\gameover.h" />
+    <ClInclude Include="Triathlon_Source\graphics.h" />
+    <ClInclude Include="Triathlon_Source\input.h" />
+    <ClInclude Include="Triathlon_Source\item.h" />
+    <ClInclude Include="Triathlon_Source\map.h" />
+    <ClInclude Include="Triathlon_Source\MemoryLeakCheck.h" />
+    <ClInclude Include="Triathlon_Source\menu.h" />
+    <ClInclude Include="Triathlon_Source\OffRoadAction.h" />
+    <ClInclude Include="Triathlon_Source\OffRoadRacer.h" />
+    <ClInclude Include="Triathlon_Source\OffRoadScore.h" />
+    <ClInclude Include="Triathlon_Source\OffRoadScoreManager.h" />
+    <ClInclude Include="Triathlon_Source\OffRoadStage.h" />
+    <ClInclude Include="Triathlon_Source\opening.h" />
+    <ClInclude Include="Triathlon_Source\option.h" />
+    <ClInclude Include="Triathlon_Source\play.h" />
+    <ClInclude Include="Triathlon_Source\record.h" />
+    <ClInclude Include="Triathlon_Source\resource.h" />
+    <ClInclude Include="Triathlon_Source\result.h" />
+    <ClInclude Include="Triathlon_Source\RunnerEffect.h" />
+    <ClInclude Include="Triathlon_Source\score.h" />
+    <ClInclude Include="Triathlon_Source\seaenemy.h" />
+    <ClInclude Include="Triathlon_Source\seastage.h" />
+    <ClInclude Include="Triathlon_Source\SelectStage.h" />
+    <ClInclude Include="Triathlon_Source\sound.h" />
+    <ClInclude Include="Triathlon_Source\swimer.h" />
+    <ClInclude Include="Triathlon_Source\talk.h" />
+    <ClInclude Include="Triathlon_Source\window.h" />
+    <ClInclude Include="Triathlon_Source\wipe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Triathlon_Source\icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Triathlon_Source\Script1.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
